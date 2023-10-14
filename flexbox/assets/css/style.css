@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+}
+.main img{
+    width: 20%;
+    height: auto;
+}
+.main p{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    width: 45%;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.main h1{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    font-size: 4rem;
+    font-weight: 100;
+}
+.container1{
+    background-color: #E8EBE4;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sidebar {
+    height: 100vh;
+    max-width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: hidden;
+}
+.avatar_container {
+    width: 50px;
+}
+.avatar {
+    object-fit: cover;
+    width: 100%;
+    height: 50px;
+    border-radius: 9999px;
+}
+.user_details_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar hr {
+    border-top: solid 1px grey;
+}
+.sidebar .sidebar_header {
+    padding: 1px;
+}
+.sidebar .sidebar_header h1 {
+    white-space: nowrap;
+}
+.text_md {
+    font-size: 20px;
+    font-style: 40;    
+}
+
+.sidebar_list {
+    max-height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+.sidebar_list::-webkit-scrollbar {
+    width: 0px;
+}
+.sidebar_list:hover::-webkit-scrollbar {
+    width: 8px;
+}
+.sidebar_list::-webkit-scrollbar-track {
+    background: transparent;
+}
+.sidebar_list:hover::-webkit-scrollbar-track {
+    background: transparent;
+}
+.sidebar_list::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+.sidebar_list:hover::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 2px;
+}
+.sidebar_list .sidebar_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.sidebar_list .sidebar_item:hover {
+    background-color: grey;
+    color: rgb(12, 11, 11);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btn {
+    background-color:#A491D2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.activo {
+    color: #dee1da;
+}
+.container1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    align-items: center; 
+}
+img {
+    width: 200px; 
+    height: auto; 
+}
